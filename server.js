@@ -3,7 +3,6 @@ const connectDB = require('./config/db');
 const dotenv = require('dotenv');
 const Stripe = require('stripe');
 // const stripe = Stripe(process.env.STR_SECRET_TEST_KEY)
-// const stripe = Stripe(sk_test_51LR1fDAQgXqoSBoKRas5yTDqesHAvyBfrcXRV1mTQVgUlKL0CdSQ5Ry2QXkhlkfT3fxJVyAbDV45TEbXUEO2748K00ACbBPF9X)
 const StripeModel = require('./models/StripeCheckout');
 
 
